@@ -3,7 +3,7 @@ import "./style.scss"
 import ProjectButton from "../project-button/projectButton"
 
 const ProjectList = () => {
-  const EmptyArray = Array.from({length: 510})
+  const EmptyArray = Array.from({length: 250})
 
   return (
     <div className="project-list">
@@ -12,7 +12,7 @@ const ProjectList = () => {
         {EmptyArray.map((arr: any, i) => (
           <ProjectButton
             key={i}
-            title="lorem ip"
+            title="lorem ips"
             description="Description goes exactly here"
           />
         ))}
