@@ -3,19 +3,15 @@ import "./style.scss"
 import ProjectButton from "../project-button/projectButton"
 
 const ProjectList = () => {
-  const EmptyArray = Array.from({length: 250})
-
   return (
     <div className="project-list">
-      <h1>Projects</h1>
+      <h2>Projects</h2>
       <ul>
-        {EmptyArray.map((arr: any, i) => (
-          <ProjectButton
-            key={i}
-            title="lorem ips"
-            description="Description goes exactly here"
-          />
-        ))}
+        <ProjectButton
+          title="Throttle"
+          description="Throttle is bla bla lorem ipsum dolor siamet"
+          href="throttle"
+        />
       </ul>
     </div>
   )

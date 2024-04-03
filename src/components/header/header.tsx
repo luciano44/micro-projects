@@ -4,6 +4,7 @@ import "./style.scss"
 import MainLogo from "../../assets/img/main-logo.svg"
 import MicroProjectsText from "../../assets/img/micro-projects-text-logo.svg"
 import RoundLogo from "../../assets/img/round-logo.svg"
+import Link from "next/link"
 
 const Header = () => {
   return (
@@ -13,7 +14,9 @@ const Header = () => {
       </div>
       <div className="logos-wrapper">
         <img src={RoundLogo.src} alt="Round Logo" className="round-logo" />
-        <img src={MainLogo.src} alt="Main Logo" className="main-logo" />
+        <Link href="/">
+          <img src={MainLogo.src} alt="Main Logo" className="main-logo" />
+        </Link>
       </div>
     </header>
   )

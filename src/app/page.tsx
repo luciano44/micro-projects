@@ -1,7 +1,7 @@
 "use client"
 import React from "react"
-import Header from "@/components/header/header"
 import ProjectList from "@/components/project-list/projectList"
+import Header from "@/components/header/header"
 
 const HomePage = () => {
   const h1Text =
@@ -29,7 +29,7 @@ const HomePage = () => {
               addAnimation(e.target)
             }}
           >
-            {letter || "&nbsp;"}
+            {letter}
           </span>
         ))}
       </h1>

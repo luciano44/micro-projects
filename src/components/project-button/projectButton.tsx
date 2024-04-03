@@ -2,14 +2,15 @@ import React from "react"
 import "./style.scss"
 
 type Props = {
-  title: String
-  description: String
+  title: string
+  description: string
+  href: string
 }
 
-const ProjectButton = ({title, description}: Props) => {
+const ProjectButton = ({title, description, href}: Props) => {
   return (
     <li className="project-button">
-      <a href="#">{title}</a>
+      <a href={href}>{title}</a>
     </li>
   )
 }
