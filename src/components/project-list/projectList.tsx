@@ -7,11 +7,11 @@ const ProjectList = () => {
     <div className="project-list">
       <h2>Projects</h2>
       <ul>
-        <ProjectButton
+        {/* <ProjectButton
           title="Throttle"
           description="Throttle is bla bla lorem ipsum dolor siamet"
           href="throttle"
-        />
+        /> */}
       </ul>
     </div>
   )
