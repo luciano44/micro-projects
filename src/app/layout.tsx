@@ -8,6 +8,9 @@ export const metadata: Metadata = {
   title: "Micro Projects",
   description:
     "Micro Projects hub, where I bring to life every new idea or tech I learn! Dive in and explore my journey of constant discovery",
+  icons: {
+    icon: ["icon.svg"],
+  },
 }
 
 export default function RootLayout({
