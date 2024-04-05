@@ -7,11 +7,11 @@ const ProjectList = () => {
     <div className="project-list">
       <h2>Projects</h2>
       <ul>
-        {/* <ProjectButton
-          title="Throttle"
-          description="Throttle is bla bla lorem ipsum dolor siamet"
-          href="throttle"
-        /> */}
+        <ProjectButton
+          title="Debouncing"
+          description="Debouncing in programming is a method to ensure that only one stable signal is recognized from a noisy input, like a button press, by adding a delay or filter to ignore rapid fluctuations."
+          href="debouncing"
+        />
       </ul>
     </div>
   )
