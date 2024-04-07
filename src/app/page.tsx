@@ -37,7 +37,6 @@ const HomePage = () => {
       <main>
         <ProjectList />
       </main>
-      {/* <ProjectDescription /> */}
     </>
   )
 }

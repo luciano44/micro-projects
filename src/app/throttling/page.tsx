@@ -8,7 +8,6 @@ const ThrottlingPage = () => {
 
   function inputHandler(str: string) {
     pRef.current!.textContent = str
-    console.log(1)
   }
 
   function handleDelay(delay: string) {
