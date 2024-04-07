@@ -32,7 +32,7 @@ const ProjectDescription = ({description}: Props) => {
         : y
 
     const xPx = `${x - 150}px`
-    const yPx = `${y + 10}px`
+    const yPx = `${y + 20}px`
 
     if (projectDescriptionRef.current) {
       projectDescriptionRef.current.style.left = xPx
