@@ -1,7 +1,8 @@
 "use client"
-import React from "react"
+import React, {useEffect} from "react"
 import ProjectList from "@/components/project-list/projectList"
 import Header from "@/components/header/header"
+import ProjectDescription from "@/components/project-description/projectDescription"
 
 const HomePage = () => {
   const h1Text =
@@ -36,6 +37,7 @@ const HomePage = () => {
       <main>
         <ProjectList />
       </main>
+      {/* <ProjectDescription /> */}
     </>
   )
 }
