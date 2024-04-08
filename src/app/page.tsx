@@ -1,8 +1,14 @@
 "use client"
-import React, {useEffect} from "react"
+import React from "react"
 import ProjectList from "@/components/project-list/projectList"
 import Header from "@/components/header/header"
-import ProjectDescription from "@/components/project-description/projectDescription"
+import Link from "next/link"
+
+//import icons
+import {FaXTwitter} from "react-icons/fa6"
+import {SiLinkedin} from "react-icons/si"
+import {FaGithub} from "react-icons/fa"
+import LRLogo from "../assets/img/lr-logo.svg"
 
 const HomePage = () => {
   const h1Text =
@@ -37,6 +43,24 @@ const HomePage = () => {
       <main>
         <ProjectList />
       </main>
+      <footer className="home-page-footer">
+        <div className="lr-logo">
+          <Link href={"#"}>
+            <img src={LRLogo.src} alt="LR Logo" />
+          </Link>
+        </div>
+        <div className="social-medias">
+          <Link href={"#"}>
+            <FaGithub />
+          </Link>
+          <Link href={"#"}>
+            <SiLinkedin />
+          </Link>
+          <Link href={"#"}>
+            <FaXTwitter />
+          </Link>
+        </div>
+      </footer>
     </>
   )
 }
