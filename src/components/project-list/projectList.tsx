@@ -3,6 +3,8 @@ import "./style.scss"
 import ProjectButton from "../project-button/projectButton"
 
 const ProjectList = () => {
+  const arr = Array.from({length: 250})
+
   return (
     <div className="project-list">
       <h2>Projects</h2>
@@ -17,6 +19,13 @@ const ProjectList = () => {
           description="Throttling in programming limits how often a function can be called within a specific timeframe. It's used to control the rate of execution, often to prevent performance issues or excessive resource usage."
           href="throttling"
         />
+        {/* {arr.map((x) => (
+          <ProjectButton
+            title="Throttling"
+            description="Throttling in programming limits how often a function can be called within a specific timeframe. It's used to control the rate of execution, often to prevent performance issues or excessive resource usage."
+            href="throttling"
+          />
+        ))} */}
       </ul>
     </div>
   )
