@@ -45,18 +45,18 @@ const HomePage = () => {
       </main>
       <footer className="home-page-footer">
         <div className="lr-logo">
-          <Link href={"#"}>
+          <Link href={"https://luciano44.netlify.app/"}>
             <img src={LRLogo.src} alt="LR Logo" />
           </Link>
         </div>
         <div className="social-medias">
-          <Link href={"#"}>
+          <Link href={"https://github.com/luciano44"}>
             <FaGithub />
           </Link>
-          <Link href={"#"}>
+          <Link href={"https://www.linkedin.com/in/luciano-ar/"}>
             <SiLinkedin />
           </Link>
-          <Link href={"#"}>
+          <Link href={"https://twitter.com/lucianoasri"}>
             <FaXTwitter />
           </Link>
         </div>
