@@ -45,7 +45,7 @@ const HomePage = () => {
       </main>
       <footer className="home-page-footer">
         <div className="lr-logo">
-          <Link href={"https://luciano44.netlify.app/"}>
+          <Link href={"https://luciano44.github.io/"}>
             <img src={LRLogo.src} alt="LR Logo" />
           </Link>
         </div>

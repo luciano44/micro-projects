@@ -1,0 +1,28 @@
+.go-back-home-button {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #111;
+  margin-top: 5px;
+
+  a {
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3bf939;
+    border-radius: 3px;
+    transition: 0.1s;
+
+    &:hover {
+      opacity: 0.75;
+    }
+  }
+
+  svg {
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+  }
+}
