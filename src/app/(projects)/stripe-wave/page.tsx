@@ -2,7 +2,7 @@
 import React, {useState} from "react"
 import "./style.scss"
 
-const page = () => {
+const StripeWave = () => {
   const [stripeQty, setStripeQty] = useState<number>(50)
 
   // const handleMouseEnter = (i: number) => {
@@ -71,4 +71,4 @@ const page = () => {
   )
 }
 
-export default page
+export default StripeWave
