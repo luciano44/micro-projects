@@ -19,6 +19,11 @@ const ProjectList = () => {
           description="Throttling in programming limits how often a function can be called within a specific timeframe. It's used to control the rate of execution, often to prevent performance issues or excessive resource usage."
           href="throttling"
         />
+        <ProjectButton
+          title="Stripe Wave"
+          description="Wave mouse hover effect using stripes."
+          href="stripe-wave"
+        />
         {/* {arr.map((x) => (
           <ProjectButton
             title="Throttling"
