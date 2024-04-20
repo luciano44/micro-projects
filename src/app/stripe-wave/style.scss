@@ -1,0 +1,47 @@
+.stripe-wave-page {
+  display: grid;
+  place-content: center;
+  min-height: 100vh;
+
+  .wave {
+    display: flex;
+    align-items: center;
+    // gap: 10px;
+
+    .stripe {
+      height: 300px;
+      width: 10px;
+      padding: 5px;
+      // border: 5px solid rgba(255, 255, 255, 0.1);
+      box-sizing: initial;
+      transition: 0.1s linear;
+
+      div {
+        transition: 0.1s linear;
+        border-radius: 5px;
+        background-color: rgba(255, 255, 255, 0.1);
+        height: 100%;
+        width: 100%;
+      }
+    }
+
+    .grow-1 {
+      height: 310px;
+      div {
+        background-color: rgba(255, 255, 255, 0.25);
+      }
+    }
+    .grow-2 {
+      height: 320px;
+      div {
+        background-color: rgba(255, 255, 255, 0.5);
+      }
+    }
+    .grow-3 {
+      height: 330px;
+      div {
+        background-color: rgba(255, 255, 255, 0.75);
+      }
+    }
+  }
+}
