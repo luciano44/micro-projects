@@ -54,6 +54,7 @@ const StripeWave = () => {
 
   return (
     <div className="stripe-wave-page">
+      <h1>Stripe Wave</h1>
       <div className="wave">
         {Array.from({length: stripeQty}).map((item, i) => (
           <div
