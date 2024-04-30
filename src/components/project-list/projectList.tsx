@@ -26,7 +26,7 @@ const ProjectList = () => {
         />
         <ProjectButton
           title="Cards Animation"
-          description="Populate cards into the page with an animation"
+          description="Populate cards in the page with an animation."
           href="cards-animation"
         />
         {/* {arr.map((x) => (
