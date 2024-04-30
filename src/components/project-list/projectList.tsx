@@ -24,6 +24,11 @@ const ProjectList = () => {
           description="Wave mouse hover effect using stripes."
           href="stripe-wave"
         />
+        <ProjectButton
+          title="Cards Animation"
+          description="Populate cards into the page with an animation"
+          href="cards-animation"
+        />
         {/* {arr.map((x) => (
           <ProjectButton
             title="Throttling"
