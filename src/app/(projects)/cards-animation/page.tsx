@@ -43,7 +43,7 @@ const CardsAnimationPage = () => {
           Cards: <span>{cardQty}</span>
         </span>
         <span className="delay-info">
-          Delay: <span>{delay}</span>
+          Delay: <span>{delay}</span> <small>{`(Card Number x Delay)`}</small>
         </span>
       </div>
       <div className="inputs">
@@ -65,7 +65,7 @@ const CardsAnimationPage = () => {
       </div>
       <div className="container">
         {Array.from({length: cardQty}).map((_, index) => (
-          <Card key={index} delay={0 + index * delay} content={`${++index}`} />
+          <Card key={index} delay={index * delay} content={`${++index}`} />
         ))}
       </div>
     </div>
