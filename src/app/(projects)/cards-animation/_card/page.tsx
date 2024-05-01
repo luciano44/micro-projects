@@ -1,6 +1,6 @@
 "use client"
 import React, {useEffect, useState} from "react"
-// import "./style.scss"
+import "./style.scss"
 
 type Props = {
   delay: number
@@ -18,7 +18,7 @@ const Card = ({delay, content}: Props) => {
 
   if (isLoading) return
 
-  return <div className="card">{content}</div>
+  return <div className="animationn-card-card">{content}</div>
 }
 
 export default Card
