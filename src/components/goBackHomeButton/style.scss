@@ -1,9 +1,9 @@
 .go-back-home-button {
   position: fixed;
-  bottom: 10px;
-  left: 10px;
+  top: 0px;
+  left: 20%;
   color: #111;
-  margin-top: 5px;
+  z-index: 999;
 
   a {
     padding: 5px;
@@ -11,11 +11,22 @@
     justify-content: center;
     align-items: center;
     background-color: #3bf939;
-    border-radius: 3px;
-    transition: 0.1s;
+    border-radius: 0 0 3px 3px;
+
+    span {
+      max-width: 0px;
+      opacity: 0;
+      transition: 0.25s;
+    }
 
     &:hover {
-      opacity: 0.75;
+      // opacity: 0.9;
+
+      span {
+        opacity: 1;
+
+        max-width: 100px;
+      }
     }
   }
 

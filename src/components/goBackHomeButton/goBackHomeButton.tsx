@@ -8,7 +8,7 @@ const goBackHomeButton = () => {
     <div className="go-back-home-button">
       <Link href="/">
         <PiKeyReturnFill />
-        Home
+        <span>Home</span>
       </Link>
     </div>
   )
